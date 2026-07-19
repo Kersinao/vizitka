@@ -20,5 +20,5 @@
 ## Проекты
 
 - **«Бегущий квадрат»** (Pygame) — github.com/Kersinao/pygame
-- **Сайт‑визитка** (HTML/CSS) — github.com/Kersinao/Vizitka
+- **Сайт‑визитка** (HTML/CSS) — github.com/Kersinao/vizitka
 - **Сайт-vpn Nexus.com** (HTML/CSS) - github.com/Kersinao/Nexus.com
