@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Владислав - Python разработчик</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- ===== ПЕРЕКЛЮЧАТЕЛЬ ТЕМЫ ===== -->
+        <div class="theme-switcher">
+            <label for="themeToggle">🌓 Тема</label>
+            <div class="switch" id="themeToggle" onclick="toggleTheme()"></div>
+        </div>
+
+        <!-- ===== ШАПКА С ФОТО ===== -->
+        <header>
+            <div class="avatar">
+                <img src="https://avatars.githubusercontent.com/u/placeholder" alt="Владислав">
+            </div>
+            <div class="header-info">
+                <h1>Владислав</h1>
+                <h2>Python разработчик</h2>
+                <!-- ===== СТАТУС ===== -->
+                <div class="status">
+                    <span class="status-dot online"></span>
+                    <span class="status-text">Открыт к предложениям</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== ОСНОВНОЙ КОНТЕНТ ===== -->
+        <div class="content">
+            <!-- ===== ЛЕВАЯ КОЛОНКА ===== -->
+            <div class="left">
+
+                <!-- Цель -->
+                <section class="goal">
+                    <h3>🎯 Цель</h3>
+                    <p class="goal-text">
+                        Получить первую работу <strong>Python разработчиком</strong> в компании,
+                        где смогу развиваться и применять свои навыки на практике.
+                    </p>
+                </section>
+
+                <!-- Контакты с ГОРОДОМ -->
+                <section class="contacts">
+                    <h3>📌 Контакты</h3>
+                    <p>
+                        <span class="icon">📍</span>
+                        <span class="label">Город:</span>
+                        <span class="value">Москва, Россия</span>
+                    </p>
+                    <p>
+                        <span class="icon">📧</span>
+                        <span class="label">Email:</span>
+                        <a href="mailto:vladsviridkin092@gmail.com" class="value">vladsviridkin092@gmail.com</a>
+                    </p>
+                    <p>
+                        <span class="icon">📱</span>
+                        <span class="label">Телефон:</span>
+                        <a href="tel:+79015148128" class="value">+7 901 514 81-28</a>
+                    </p>
+                    <p>
+                        <span class="icon">🐙</span>
+                        <span class="label">GitHub:</span>
+                        <a href="https://github.com/Kersinao" target="_blank" class="value">Kersinao</a>
+                    </p>
+                    <p>
+                        <span class="icon">✈️</span>
+                        <span class="label">Telegram:</span>
+                        <a href="https://t.me/Kersinao" target="_blank" class="value">@Kersinao</a>
+                    </p>
+                </section>
+
+                <!-- Статистика -->
+                <section class="stats">
+                    <h3>📊 В цифрах</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Проектов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1</span>
+                            <span class="stat-label">Сертификат</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">1 год</span>
+                            <span class="stat-label">В IT</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Навыки в виде ТЕГОВ -->
+                <section class="skills">
+                    <h3>🚀 Навыки</h3>
+                    <div class="tags">
+                        <span class="tag">🐍 Python Базовое</span>
+                        <span class="tag">🌐 HTML5 Среднее</span>
+                        <span class="tag">🎨 CSS3 Базовое</span>
+                        <span class="tag">📂 Git</span>
+                        <span class="tag">🐙 GitHub</span>
+                    </div>
+                </section>
+
+                <!-- Проекты (в левой колонке) -->
+                <section class="projects">
+                    <h3>📁 Проекты</h3>
+                    <div class="project-item">
+                        <span class="project-name">🛡️ Сайт VPN</span>
+                        <span class="project-desc">Сайт сделан на HTML/CSS обычный сайт</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">✅ Завершён</span>
+                    </div>
+                    <div class="project-item">
+                        <span class="project-name">🌐 Сайт-визитка</span>
+                        <span class="project-desc">Персональный сайт-портфолио с адаптивным дизайном</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                        <span class="progress-text">✅ Завершён</span>
+                    </div>
+                </section>
+
+                <!-- Секция "В разработке" (в левой колонке) -->
+                <section class="working-on">
+                    <h3>⚡ В разработке</h3>
+                    <div class="project-item">
+                        <span class="project-name">🚀 «Автоматизированный сервис продажи и управления
+                            VPN-подписками»</span>
+                        <span class="project-desc">Суть проекта: создаю бэкенд-систему (API), которая регистрирует
+                            пользователей, принимает запросы с вашего сайта, генерирует ключи доступа к VPN и следит за
+                            тем, чтобы у пользователя не закончился оплаченный период.</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <span class="progress-text">Прогресс: 0%</span>
+                    </div>
+                </section>
+
+                <!-- Социальные сети -->
+                <section class="social">
+                    <h3>🌐 Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="https://vk.ru/id800839214" target="_blank">
+                            <span class="social-icon">📘</span>
+                            <span>ВКонтакте</span>
+                        </a>
+                        <a href="https://www.instagram.com/kersinao/" target="_blank">
+                            <span class="social-icon">📸</span>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vladislav-sviridkin-9a314341b/" target="_blank">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Kersinao" target="_blank">
+                            <span class="social-icon">🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://t.me/Kersinao" target="_blank">
+                            <span class="social-icon">✈️</span>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- ===== ПРАВАЯ КОЛОНКА ===== -->
+            <div class="right">
+
+                <!-- Обо мне (улучшенное) -->
+                <section class="about">
+                    <h3>👤 Обо мне</h3>
+                    <p class="about-text">
+                        <strong>Начинающий Python разработчик</strong>, ищу первую работу в IT.
+                        🐍 Изучаю Python, хочу создавать полезные продукты.
+                        🚀 Развиваюсь в веб-разработке и автоматизации.
+                        💪 Готов учиться и работать в команде профессионалов.
+                    </p>
+                </section>
+
+                <!-- Достижения -->
+                <section class="achievements">
+                    <h3>🏆 Достижения</h3>
+                    <div class="achievement-item">
+                        <span class="achiev-name">📜 Сертификат по Python</span>
+                        <span class="achiev-desc">Stepik.org</span>
+                        <span class="achiev-date">2024</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achiev-name">🌐 Сайт-визитка</span>
+                        <span class="achiev-desc">Создан с нуля на HTML/CSS</span>
+                        <span class="achiev-date">2025</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achiev-name">🛡️ Сайт VPN</span>
+                        <span class="achiev-desc">Полноценный сайт на HTML/CSS</span>
+                        <span class="achiev-date">2025</span>
+                    </div>
+                </section>
+
+                <!-- Языки -->
+                <section class="languages">
+                    <h3>🗣️ Языки</h3>
+                    <div class="lang-item">
+                        <span>🇷🇺 Русский</span>
+                        <span class="level level-advanced">Родной</span>
+                    </div>
+                    <div class="lang-item">
+                        <span>🇬🇧 Английский</span>
+                        <span class="level level-intermediate">Средний (А1)</span>
+                    </div>
+                </section>
+
+                <!-- Образование -->
+                <section class="education">
+                    <h3>🎓 Образование</h3>
+                    <div class="edu-item">
+                        <span class="edu-name">🏫 IT TOP ACADEMY college</span>
+                        <span class="edu-spec">💻 Специальность: Разработчик программного обеспечения</span>
+                        <span class="edu-year">📅 2022 - 2029</span>
+                        <p class="edu-desc">Изучаю программирование</p>
+                    </div>
+                    <div class="edu-item">
+                        <span class="edu-name">📚 Дополнительное образование</span>
+                        <span class="edu-spec">💻 Python разработчик</span>
+                        <span class="edu-year">📅 2026</span>
+                        <p class="edu-desc">Курсы по Python</p>
+                    </div>
+                </section>
+
+                <!-- Планы на будущее -->
+                <section class="plans">
+                    <h3>🚀 Планы на будущее</h3>
+                    <div class="plan-item">
+                        <span class="plan-name">📈 Углубить Python</span>
+                        <span class="plan-desc">Изучить асинхронное программирование</span>
+                    </div>
+                    <div class="plan-item">
+                        <span class="plan-name">🏆 Найти первую работу</span>
+                        <span class="plan-desc">Устроиться Junior Python разработчиком</span>
+                    </div>
+                </section>
+
+                <!-- Улучшенный призыв к действию -->
+                <div class="cta-modern">
+                    <p class="cta-title">💼 Ищу работу Python разработчиком</p>
+                    <p class="cta-sub">📩 Напишите мне, и я расскажу о себе подробнее!</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:vladsviridkin092@gmail.com" class="btn">📧 Написать</a>
+                        <a href="https://t.me/Kersinao" target="_blank" class="btn btn-outline">✈️ Telegram</a>
+                    </div>
+                </div>
+
+                <!-- Кнопки -->
+                <div class="download-btn">
+                    <a href="#" class="btn" onclick="window.print(); return false;">📄 Скачать резюме (PDF)</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const toggle = document.getElementById('themeToggle');
+            const html = document.documentElement;
+
+            if (html.getAttribute('data-theme') === 'dark') {
+                html.removeAttribute('data-theme');
+                toggle.classList.remove('active');
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                toggle.classList.add('active');
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const savedTheme = localStorage.getItem('theme');
+            const toggle = document.getElementById('themeToggle');
+
+            if (savedTheme === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                toggle.classList.add('active');
+            }
+        });
+    </script>
+</body>
+
+</html>
